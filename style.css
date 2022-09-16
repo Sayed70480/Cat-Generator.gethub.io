@@ -1,0 +1,23 @@
+.container {
+    border: 2px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.flex-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-box-container img {
+    /* border: 1px solid green; */
+    padding: 10PX;
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 10px 50px black;
+}
